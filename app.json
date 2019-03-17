@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/shop/shop",
+    "pages/index/join/join",
+    "pages/index/search/search",
+    "pages/index/list/list",
+    "pages/index/details/details",
+    "pages/index/orders/orders",
+    "pages/index/address/address"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/a1.png",
+      "selectedIconPath": "images/a2.png"
+    },
+    {
+      "pagePath": "pages/index/shop/shop",
+      "text": "购物车",
+      "iconPath": "images/a1.png",
+      "selectedIconPath": "images/a2.png"
+    },
+    {
+      "pagePath": "pages/index/join/join",
+      "text": "我的",
+      "iconPath": "images/a1.png",
+      "selectedIconPath": "images/a2.png"
+    }
+    ]
+  }
+}
